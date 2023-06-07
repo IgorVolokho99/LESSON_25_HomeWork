@@ -1,0 +1,10 @@
+[Unit]
+Description=Flasp app service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/ivolokho/LESSON_25_HomeWork
+ExecStart=/home/ivolokho/LESSON_25_HomeWork/.venv/bin/python
+
+[Install]
+WantedBy=multi-user.target
